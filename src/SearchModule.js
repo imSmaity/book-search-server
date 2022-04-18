@@ -2,6 +2,7 @@ const mongoose=require('mongoose')
 const {Schema}=mongoose
 
 const searchDataStructure={
+    _id: String,
     items: Array
 }
 
