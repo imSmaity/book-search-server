@@ -8,7 +8,7 @@ const SearchModule=require('./SearchModule')
 app.use(cors())
 app.use(parser.json())
 
-app.post('/',async(req,res)=>{
+app.post('/',async(req,res)=>{ 
     const _id=req.body._id
     const findData=await SearchModule.findById(_id)
 
